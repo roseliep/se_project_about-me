@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: 'Inter', sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(./images/clouds.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.header-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: #fff;
+  text-transform: uppercase;
+  max-width: 1240px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 790px;
+  margin: 100px auto 50px
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 350px;
+  padding: 45px 45px 70px;
+  background: #fff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+
+.card-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+}
+
+.card-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  min-height: 300px;
+  background: #000;
+}
+
+.footer-signature {
+  font-size: 24px;
+  color: #fff;
+  margin: auto;
+}
