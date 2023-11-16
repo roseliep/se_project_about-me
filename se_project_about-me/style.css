@@ -13,7 +13,7 @@ p {
 
 .page {
   font-family: 'Inter', sans-serif;
-  background: #eeeeee;
+  background: #eee;
 }
 
 .header {
@@ -49,9 +49,9 @@ p {
   margin: 100px auto 50px
 }
 
-.card {
+.article {
   width: 350px;
-  margin-bottom: 350px;
+  margin-bottom: 60px;
   padding: 45px 45px 70px;
   background: #fff;
   box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
